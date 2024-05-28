@@ -1,62 +1,62 @@
 import React from "react";
 import Footer from "../../Components/Layout/Footer/Footer";
 import Header from "../../Components/Layout/Header/Header";
-import "./aboutme.css";
 
 function AboutMe() {
     return(
         <>
            <div>
                 <Header />
-                <div className="text-red-500">
-                    <h1 className="text-red-700">
+                <div className="m-[15px] p-[10px]">
+                    <h1 className="text-black font-bold text-center text-8xl">
                        About Me 
                     </h1>
                 </div>
-                <div className="information">
-                    <div className="professional-background">
-                        <h2>
+                <div className="m-[15px] p-[10px]">
+                    {/* professional story */}
+                    <div className="p-[10px]">
+                        <h2 className="text-black font-bold pl-[50px] text-4xl">
                             Professional Background
                         </h2>
                         <div className="hospitality">
-                            <h3>
+                            <h3 className="pl-[80px] text-black font-bold text-2xl">
                                 Hospitality Industry Experience
                             </h3>
-                            <p>
+                            <p className="pl-[100px]">
                             I spent five years working in the restaurant industry, gaining a wide range of skills and experiences:
                             </p>
-                            <ul>
-                                <li>
-                                    Waiter: Initially started as a waiter, where I honed my customer service skills and learned the intricacies of the hospitality sector.
+                            <ul className="p-[10px]">
+                                <li className="pl-[150px]">
+                                    <span className="text-black font-bold">Waiter:</span> Initially started as a waiter, where I honed my customer service skills and learned the intricacies of the hospitality sector.
                                 </li>
-                                <li>
-                                    Bartender: Progressed to bartending, mastering the art of mixing drinks and providing exceptional service to guests.
+                                <li className="pl-[150px]">
+                                    <span className="text-black font-bold">Bartender:</span> Progressed to bartending, mastering the art of mixing drinks and providing exceptional service to guests.
                                 </li>
-                                <li>
-                                    Mixologist: Eventually became a mixologist, responsible for crafting innovative cocktail and mocktail menus that delighted patrons and enhanced the establishment's reputation.
+                                <li className="pl-[150px]">
+                                    <span className="text-black font-bold">Mixologist:</span> Eventually became a mixologist, responsible for crafting innovative cocktail and mocktail menus that delighted patrons and enhanced the establishment's reputation.
                                 </li>
-                                <li>
-                                    Bar Management: Often took on bar management responsibilities in the absence of the main manager, ensuring smooth operations and maintaining high standards of service.
+                                <li className="pl-[150px]">
+                                    <span className="text-black font-bold">Bar Management:</span> Often took on bar management responsibilities in the absence of the main manager, ensuring smooth operations and maintaining high standards of service.
                                 </li>
                             </ul>
                         </div>
                         <div className="programming">
-                            <h3>
+                            <h3 className="pl-[80px] text-black font-bold text-2xl">
                                 Transition to Programing
                             </h3>
-                            <p>
+                            <p className="pl-[100px]">
                             The transition from hospitality to programming was driven by the desire for better pay and enhanced benefits. This motivation led me to pursue a new career path in coding:
                             </p>
-                            <ul>
-                                <li>
-                                Self-Taught Programmer: Began learning to code independently, dedicating significant time and effort to mastering programming languages and tools.
+                            <ul className="p-[10px]">
+                                <li className="pl-[150px]">
+                                <span className="text-black font-bold">Self-Taught Programmer:</span> Began learning to code independently, dedicating significant time and effort to mastering programming languages and tools.
                                 </li>
-                                <li>
-                                Motivation: The potential for higher earnings and improved work-life balance were key factors in my decision to become a programmer.
+                                <li className="pl-[150px]">
+                                <span className="text-black font-bold">Motivation:</span> The potential for higher earnings and improved work-life balance were key factors in my decision to become a programmer.
                                 </li>
                             </ul>
                         </div>
-                        <p>
+                        <p className="pl-[80px]">
                         This diverse background has equipped me with a unique blend of skills, from excellent communication and problem-solving abilities developed in the hospitality industry to technical proficiency and a strong work ethic cultivated through my journey into programming.
                         </p>
                     </div>

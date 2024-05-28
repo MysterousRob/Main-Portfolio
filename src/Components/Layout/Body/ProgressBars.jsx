@@ -17,11 +17,11 @@ export const skills = [
     },
     {
       name: "Javascript",
-      percentage: 98,
+      percentage: 80,
     },
     {
       name: "React",
-      percentage: 89,
+      percentage: 90,
     },
     {
       name: "React Native",
