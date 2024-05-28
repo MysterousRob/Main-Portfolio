@@ -1,7 +1,6 @@
 import React from 'react'
 import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
-import './Body.css';
 
 export const skills = [
     {
@@ -42,13 +41,16 @@ export const skills = [
 
 const ProgressBars = () => {
   return (
-    <div className='progress-container'>
+    <div className='flex flex-row text-base flex-wrap justify-center max-w-[1000px] mx-auto'>
       {skills.map((skill, index) => (
-        <div key={index} className={`progress-bar-container ${skill.name.length > 8 ? 'long-name' : ''}`}>
+        <div key={index} className={`w-1/4 px-2 text-center ${skill.name.length > 8 ? 'long-name' : ''}`}>
           <CircularProgressbar
-            className='progress-bar'
+            className='w-full text-sm'
             value={skill.percentage}
             text={`${skill.name}`}
+            styles={{
+              text: { fontSize: '14px' }, 
+            }}
           />
         </div>
       ))}
