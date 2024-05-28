@@ -5,7 +5,7 @@ import Header from "../../Components/Layout/Header/Header";
 function AboutMe() {
     return(
         <>
-           <div>
+           <div className="bg-white">
                 <Header />
                 <div className="m-[15px] p-[10px]">
                     <h1 className="text-black font-bold text-center text-8xl">
