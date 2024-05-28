@@ -1,0 +1,35 @@
+
+.footer-nav {
+    padding-left: 50px;
+    background-color: black;
+    display: flex;
+    
+}
+.footer-nav *{
+    color: white;
+    text-decoration: none;
+
+}
+.footer-box {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+.footer-box h1{
+    color: white;
+}
+.foot{
+    margin-top: 20px;
+    padding-top: 10px;
+    background-color: black;
+    text-align: center;
+}
+.foot h1 {
+    color: white;
+    
+}
+.Navigation {
+    padding: 10px;
+}
+
