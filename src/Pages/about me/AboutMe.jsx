@@ -14,7 +14,7 @@ function AboutMe() {
                 </div>
                 <div className="m-[15px] p-[10px]">
                     {/* professional story */}
-                    <div className="p-[10px]">
+                    <div className="p-[10px] text-black">
                         <h2 className="text-black font-bold pl-[50px] text-4xl">
                             Professional Background
                         </h2>
