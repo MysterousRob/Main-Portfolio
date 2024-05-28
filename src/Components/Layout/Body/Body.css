@@ -1,48 +1,5 @@
 
 /*text section*/
-.text-box *{
-  font-size: 40px;
-}
-.text-box {
-  padding: 10px;
-  margin-left: 90px;
-  margin-top: 5px;
-  margin-bottom: 15px;
-}
-.text-box h1{
-  text-align: center;
-  font-family: Roboto serif SemiBold 600 Italic;
-  text-align: left;
-}
-.text-box h2{
-  text-align: center;
-  text-align: left;
-  font-family: Lato Black 900 Italic;
-}
-.text-box p{
-  text-align: center;
-  text-align: left;
-  margin-left: 100px;
-}
-.image-container {
-    padding: 15px;
-    width: 428px;
-    height: 862px;
-    overflow: hidden;
-    border-radius: 10px;
-    display: inline-block;
-}
-
-
-.image-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.progress-section {
-    width: auto; 
-}
 
 .progress-container {
   display: flex;
