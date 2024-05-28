@@ -1,7 +1,7 @@
 import React from "react";
 import './Body.css';
 import ProgressBars from "./ProgressBars";
-// import "../../../../public/Images/Robert-Portrait.png"
+import logo from './../../../assets/css/pictures/Images/Robert-Portrait.png'
 function Body() {
     return(
         <>
@@ -16,7 +16,7 @@ function Body() {
             </div>
         </div>
         <div className="image-container">
-            <img src="Images/Robert-Portrait.png" alt="Your Image" />
+            <img src={logo} alt="Your Image" />
         </div>
     </section>
 
