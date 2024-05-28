@@ -5,7 +5,7 @@ import Header from "../../Components/Layout/Header/Header";
 function AboutMe() {
     return(
         <>
-           <div className="bg-white">
+           <div className="bg-white text-black">
                 <Header />
                 <div className="m-[15px] p-[10px]">
                     <h1 className="text-black font-bold text-center text-8xl">
@@ -14,7 +14,7 @@ function AboutMe() {
                 </div>
                 <div className="m-[15px] p-[10px]">
                     {/* professional story */}
-                    <div className="p-[10px] text-black">
+                    <div className="p-[10px]">
                         <h2 className="text-black font-bold pl-[50px] text-4xl">
                             Professional Background
                         </h2>
