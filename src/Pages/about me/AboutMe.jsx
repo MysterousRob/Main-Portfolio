@@ -8,8 +8,8 @@ function AboutMe() {
         <>
            <div>
                 <Header />
-                <div className="about-me">
-                    <h1>
+                <div className="text-red-500">
+                    <h1 className="text-red-700">
                        About Me 
                     </h1>
                 </div>
