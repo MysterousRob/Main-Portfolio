@@ -1,6 +1,8 @@
 import React from "react";
 import Footer from "../../Components/Layout/Footer/Footer";
 import Header from "../../Components/Layout/Header/Header";
+import ProfessionalStory from "./partials/ProfessionalStory";
+import MyEducation from "./partials/MyEducation";
 
 function AboutMe() {
     return(
@@ -13,99 +15,10 @@ function AboutMe() {
                     </h1>
                 </div>
                 <div className="m-[15px] p-[10px]">
-                    {/* professional story */}
-                    <div className="p-[10px]">
-                        <h2 className="text-black font-bold pl-[50px] text-4xl">
-                            Professional Background
-                        </h2>
-                        <div className="hospitality">
-                            <h3 className="pl-[80px] text-black font-bold text-2xl">
-                                Hospitality Industry Experience
-                            </h3>
-                            <p className="pl-[100px] indent-2">
-                            I spent five years working in the restaurant industry, gaining a wide range of skills and experiences:
-                            </p>
-                            <ul className="p-[10px]">
-                                <li className="pl-[150px]">
-                                    <span className="text-black font-bold">Waiter:</span> Initially started as a waiter, where I honed my customer service skills and learned the intricacies of the hospitality sector.
-                                </li>
-                                <li className="pl-[150px]">
-                                    <span className="text-black font-bold">Bartender:</span> Progressed to bartending, mastering the art of mixing drinks and providing exceptional service to guests.
-                                </li>
-                                <li className="pl-[150px]">
-                                    <span className="text-black font-bold">Mixologist:</span> Eventually became a mixologist, responsible for crafting innovative cocktail and mocktail menus that delighted patrons and enhanced the establishment's reputation.
-                                </li>
-                                <li className="pl-[150px]">
-                                    <span className="text-black font-bold">Bar Management:</span> Often took on bar management responsibilities in the absence of the main manager, ensuring smooth operations and maintaining high standards of service.
-                                </li>
-                            </ul>
-                        </div>
-                        <div className="programming">
-                            <h3 className="pl-[80px] text-black font-bold text-2xl">
-                                Transition to Programing
-                            </h3>
-                            <p className="pl-[100px] indent-4">
-                            The transition from hospitality to programming was driven by the desire for better pay and enhanced benefits. This motivation led me to pursue a new career path in coding:
-                            </p>
-                            <ul className="p-[10px]">
-                                <li className="pl-[150px]">
-                                <span className="text-black font-bold">Self-Taught Programmer:</span> Began learning to code independently, dedicating significant time and effort to mastering programming languages and tools.
-                                </li>
-                                <li className="pl-[150px]">
-                                <span className="text-black font-bold">Motivation:</span> The potential for higher earnings and improved work-life balance were key factors in my decision to become a programmer.
-                                </li>
-                            </ul>
-                        <p className="pl-[100px] indent-4">
-                        This diverse background has equipped me with a unique blend of skills, from excellent communication and problem-solving abilities developed in the hospitality industry to technical proficiency and a strong work ethic cultivated through my journey into programming.
-                        </p>
-                    </div>
-                    </div>
+                   <ProfessionalStory />
                     {/* my education */}
-                    <div className="p-[10px]">
-                        <h2 className="text-black font-bold pl-[50px] text-4xl">
-                            My Education
-                        </h2>
-                        <div className="early-edu">
-                            <h3 className="pl-[80px] text-black font-bold text-2xl">
-                                Early Education
-                            </h3>
-                            <ul className="p-[10px]">
-                                <li className="pl-[150px]">
-                                <span className="text-black font-bold">USA:</span> I completed 13 years of schooling in the USA, building a strong foundational education.
-                                </li>
-                            </ul>
-                        </div>
-                        <div className="high-school">
-                            <h3 className="pl-[80px] text-black font-bold text-2xl">
-                                High School in Malta
-                            </h3>
-                            <ul className="p-[10px]">
-                                <li className="pl-[150px]">
-                                    <span className="text-black font-bold">Quality Schools International (QSI) Malta:</span> After moving to Malta, I attended QSI for four years of high school, where I adapted to a new educational system and culture.
-                                </li>
-                            </ul>
-                        </div>
-                        <div className="pro-training">
-                            <h3 className="pl-[80px] text-black font-bold text-2xl">
-                                Professional Training
-                            </h3>
-                            <ul className="p-[10px]">
-                                <li className="pl-[150px]">
-                                    <span className="text-black font-bold">Mixology/Bartending Course:</span> At 16, I enrolled in a mixology and bartending course. This specialized training helped me develop advanced skills in creating cocktails and managing bar operations, which became a significant part of my professional background.
-                                </li>
-                            </ul>
-                        </div>
-                        <div className="coding-edu">
-                            <h3 className="pl-[80px] text-black font-bold text-2xl">
-                                Coding Education
-                            </h3>
-                            <ul className="pl-[150px] pt-[10px] ">
-                                <li>
-                                <span className="text-black font-bold">Codecademy (November 2023):</span> I began my journey into programming by learning to code on Codecademy. This platform provided me with the essential knowledge and skills in various programming languages and technologies, marking the beginning of my career transition into the tech industry.
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                    <MyEducation />
+                    {/* personal story */}
                     <div className="p-[10px]">
                         <h2 className="text-black font-bold pl-[50px] text-4xl">
                             Personal Story
