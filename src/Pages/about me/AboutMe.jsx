@@ -22,7 +22,7 @@ function AboutMe() {
                             <h3 className="pl-[80px] text-black font-bold text-2xl">
                                 Hospitality Industry Experience
                             </h3>
-                            <p className="pl-[100px]">
+                            <p className="pl-[100px] indent-2">
                             I spent five years working in the restaurant industry, gaining a wide range of skills and experiences:
                             </p>
                             <ul className="p-[10px]">
@@ -44,7 +44,7 @@ function AboutMe() {
                             <h3 className="pl-[80px] text-black font-bold text-2xl">
                                 Transition to Programing
                             </h3>
-                            <p className="pl-[100px]">
+                            <p className="pl-[100px] indent-4">
                             The transition from hospitality to programming was driven by the desire for better pay and enhanced benefits. This motivation led me to pursue a new career path in coding:
                             </p>
                             <ul className="p-[10px]">
@@ -55,61 +55,62 @@ function AboutMe() {
                                 <span className="text-black font-bold">Motivation:</span> The potential for higher earnings and improved work-life balance were key factors in my decision to become a programmer.
                                 </li>
                             </ul>
-                        </div>
-                        <p className="pl-[80px]">
+                        <p className="pl-[100px] indent-4">
                         This diverse background has equipped me with a unique blend of skills, from excellent communication and problem-solving abilities developed in the hospitality industry to technical proficiency and a strong work ethic cultivated through my journey into programming.
                         </p>
                     </div>
-                    <div className="education">
-                        <h2>
+                    </div>
+                    {/* my education */}
+                    <div className="p-[10px]">
+                        <h2 className="text-black font-bold pl-[50px] text-4xl">
                             My Education
                         </h2>
                         <div className="early-edu">
-                            <h3>
+                            <h3 className="pl-[80px] text-black font-bold text-2xl">
                                 Early Education
                             </h3>
-                            <ul>
-                                <li>
-                                USA: I completed 13 years of schooling in the USA, building a strong foundational education.
+                            <ul className="p-[10px]">
+                                <li className="pl-[150px]">
+                                <span className="text-black font-bold">USA:</span> I completed 13 years of schooling in the USA, building a strong foundational education.
                                 </li>
                             </ul>
                         </div>
                         <div className="high-school">
-                            <h3>
+                            <h3 className="pl-[80px] text-black font-bold text-2xl">
                                 High School in Malta
                             </h3>
-                            <ul>
-                                <li>
-                                    Quality Schools International (QSI) Malta: After moving to Malta, I attended QSI for four years of high school, where I adapted to a new educational system and culture.
+                            <ul className="p-[10px]">
+                                <li className="pl-[150px]">
+                                    <span className="text-black font-bold">Quality Schools International (QSI) Malta:</span> After moving to Malta, I attended QSI for four years of high school, where I adapted to a new educational system and culture.
                                 </li>
                             </ul>
                         </div>
                         <div className="pro-training">
-                            <h3>
+                            <h3 className="pl-[80px] text-black font-bold text-2xl">
                                 Professional Training
                             </h3>
-                            <ul>
-                                <li>
-                                    Mixology/Bartending Course: At 16, I enrolled in a mixology and bartending course. This specialized training helped me develop advanced skills in creating cocktails and managing bar operations, which became a significant part of my professional background.
+                            <ul className="p-[10px]">
+                                <li className="pl-[150px]">
+                                    <span className="text-black font-bold">Mixology/Bartending Course:</span> At 16, I enrolled in a mixology and bartending course. This specialized training helped me develop advanced skills in creating cocktails and managing bar operations, which became a significant part of my professional background.
                                 </li>
                             </ul>
                         </div>
                         <div className="coding-edu">
-                            <h3>
+                            <h3 className="pl-[80px] text-black font-bold text-2xl">
                                 Coding Education
                             </h3>
-                            <ul>
+                            <ul className="pl-[150px] pt-[10px] ">
                                 <li>
-                                Codecademy (November 2023): I began my journey into programming by learning to code on Codecademy. This platform provided me with the essential knowledge and skills in various programming languages and technologies, marking the beginning of my career transition into the tech industry.
+                                <span className="text-black font-bold">Codecademy (November 2023):</span> I began my journey into programming by learning to code on Codecademy. This platform provided me with the essential knowledge and skills in various programming languages and technologies, marking the beginning of my career transition into the tech industry.
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div className="personal-story">
-                        <h2>
+                    <div className="p-[10px]">
+                        <h2 className="text-black font-bold pl-[50px] text-4xl">
                             Personal Story
                         </h2>
-                        <p>
+                        <p className="pl-[100px] indent-7">
                         I was born on November 23, 2003, in Chicago, Illinois, USA, also known as the Windy City. My early childhood was marked by the loss of my mother when I was just three years old. Raised by my grandparents while my father pursued his career in Europe, I grew up in a nurturing environment that balanced both American and Polish cultures. My family hails from Poland, making me Polish-American, and I learned to speak Polish from a young age through Polish school and family interactions.
                         At the age of 14, I moved to Malta to live with my father and attend high school. This move was pivotal, as it not only exposed me to a new culture but also allowed me to improve my Polish language skills through a friendship with a fellow Polish student.
                         When I turned 17, I landed my first job as a runner at a restaurant called Shakinah, where I began my training as a bartender. Discovering a passion for mixology, I pursued formal training at a trade school and eventually became a mixologist at Shakinah. However, seeking better pay, I transitioned to The Hatters Pub. There, I took on more responsibilities, often managing the bar in the absence of the main manager.
@@ -117,62 +118,62 @@ function AboutMe() {
                         These experiences have shaped me into a resilient and adaptable individual, blending the rich cultural heritage of my Polish-American background with the technical skills and creativity of both the hospitality and tech industries.
                         </p>
                     </div>
-                    <div className="values">
-                        <h2>
+                    <div className="p-[10px]">
+                        <h2 className="text-black font-bold pl-[50px] text-4xl">
                             Values and Beliefs
                         </h2>
-                        <p>
+                        <p className="pl-[100px] indent-4">
                             My approach to coding is guided by a strong set of values that not only shape my work but also define my professional ethos:
                         </p>
-                        <ul>
-                                <li>
-                                    Creativity: I am driven by the opportunity to create compelling and user-friendly websites that leave a lasting impact on users.
+                        <ul className="p-[10px]">
+                                <li className="pl-[150px]">
+                                    <span className="text-black font-bold">Creativity:</span> I am driven by the opportunity to create compelling and user-friendly websites that leave a lasting impact on users.
                                 </li>                            
-                                <li>
-                                    Accountability: I believe in taking ownership of my work and ensuring that every project I undertake meets high standards of quality and reliability.
+                                <li className="pl-[150px]">
+                                    <span className="text-black font-bold">Accountability:</span> I believe in taking ownership of my work and ensuring that every project I undertake meets high standards of quality and reliability.
                                 </li>
-                                <li>
-                                    Autonomy: I value the freedom to explore new ideas and approaches, fostering innovation and continuous improvement in my coding practices.
+                                <li className="pl-[150px]">
+                                    <span className="text-black font-bold">Autonomy:</span> I value the freedom to explore new ideas and approaches, fostering innovation and continuous improvement in my coding practices.
                                 </li>
-                                <li>
-                                    Respect: Respect forms the foundation of my interactions with colleagues and clients, fostering collaboration and mutual understanding.
+                                <li className="pl-[150px]">
+                                    <span className="text-black font-bold">Respect:</span> Respect forms the foundation of my interactions with colleagues and clients, fostering collaboration and mutual understanding.
                                 </li>
-                                <li>
-                                    Kindness: I believe in approaching challenges with empathy and consideration, creating a supportive and positive work environment.
+                                <li className="pl-[150px]">
+                                    <span className="text-black font-bold">Kindness:</span> I believe in approaching challenges with empathy and consideration, creating a supportive and positive work environment.
                                 </li>
-                                <li>
-                                    Personal Growth: Continuous learning and development are central to my career journey, as I strive to expand my skills and knowledge in coding and beyond.
+                                <li className="pl-[150px]">
+                                    <span className="text-black font-bold">Personal Growth:</span> Continuous learning and development are central to my career journey, as I strive to expand my skills and knowledge in coding and beyond.
                                 </li>
-                                <li>
-                                    Motivation to Grow and Learn: I am driven by a relentless curiosity and a passion for acquiring new skills, ensuring I stay at the forefront of technological advancements.
+                                <li className="pl-[150px]">
+                                    <span className="text-black font-bold">Motivation to Grow and Learn:</span> I am driven by a relentless curiosity and a passion for acquiring new skills, ensuring I stay at the forefront of technological advancements.
                                 </li>
-                                <li>
-                                    Acceptance: Embracing diversity and inclusively is fundamental to my values, recognizing the strength that different perspectives bring to creative endeavors.
+                                <li className="pl-[150px]">
+                                    <span className="text-black font-bold">Acceptance:</span> Embracing diversity and inclusively is fundamental to my values, recognizing the strength that different perspectives bring to creative endeavors.
                                 </li>
-                                <li>
-                                    Community: I believe in contributing positively to the tech community, sharing knowledge and experiences to foster collective growth and success.       
+                                <li className="pl-[150px]">
+                                    <span className="text-black font-bold">Community:</span> I believe in contributing positively to the tech community, sharing knowledge and experiences to foster collective growth and success.       
                                 </li>                            
                         </ul>
-                        <p>
+                        <p className="pl-[100px] indent-4">
                         These values not only guide my approach to coding but also reflect my commitment to creating meaningful and impactful experiences for users while continually evolving as a professional.
                         </p>
                     </div>
-                    <div className="hobbies">
-                        <h2>
+                    <div className="p-[10px]">
+                        <h2 className="text-black font-bold pl-[50px] text-4xl">
                             Hobbies and Interests
                         </h2>
-                        <p>
+                        <p className="pl-[100px] indent-4">
                             My hobbies and interests play a significant role in shaping who I am. Here are a few that are particularly important to me:
                         </p>
-                        <ul>
-                            <li>
-                                Golfing: I enjoy spending time on the golf course, which not only allows me to stay active but also provides a great way to relax and unwind. Golfing helps me improve my concentration and patience, skills that are beneficial in both personal and professional settings.
+                        <ul className="p-[10px]">
+                            <li className="pl-[150px]">
+                                <span className="text-black font-bold">Golfing:</span> I enjoy spending time on the golf course, which not only allows me to stay active but also provides a great way to relax and unwind. Golfing helps me improve my concentration and patience, skills that are beneficial in both personal and professional settings.
                             </li>
-                            <li>
-                                Gaming: Gaming is another passion of mine. It offers a perfect balance of challenge and entertainment, helping me develop strategic thinking and problem-solving skills. Whether it’s a quick game to unwind or a long session with friends, gaming keeps me engaged and sharp.
+                            <li className="pl-[150px]">
+                                <span className="text-black font-bold">Gaming:</span> Gaming is another passion of mine. It offers a perfect balance of challenge and entertainment, helping me develop strategic thinking and problem-solving skills. Whether it’s a quick game to unwind or a long session with friends, gaming keeps me engaged and sharp.
                             </li>
                         </ul>
-                        <p>
+                        <p className="pl-[100px] indent-4">
                             Although my list of hobbies may seem short, these activities are integral to my lifestyle and personal growth, contributing significantly to my overall well-being and shaping the person I am today.
                         </p>
                     </div>
