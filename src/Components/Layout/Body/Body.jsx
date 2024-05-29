@@ -5,7 +5,7 @@ import logo from "./../../../assets/css/pictures/Images/Robert-Portrait.png";
 function Body() {
   return (
     <>
-      <div className="flex flex-col items-center justify-center m-30 p-20 bg-black bg-opacity-0">
+      <div className="flex flex-col items-center justify-center m-30 p-20 bg-black bg-opacity-0 bg-white">
         <section className="mb-20 text-center flex-1">
           <div className="p-10 ml-90 mt-5 mb-15">
             <h2 className="text-5xl text-left font-lato-black italic">
