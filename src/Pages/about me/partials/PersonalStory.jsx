@@ -5,7 +5,7 @@ import clsx from 'clsx';
 
 function PersonalStory() {
   return (
-    <Disclosure className="bg-black">
+    <Disclosure className="bg-white">
       {({ open }) => (
         <>
           <DisclosureButton className="flex items-center gap-2">
