@@ -12,7 +12,7 @@ function ValuesandBeliefs() {
     <Disclosure>
       {({ open }) => (
         <>
-          <DisclosureButton className="flex items-center gap-2">
+          <DisclosureButton className="flex items-center gap-2 bg-white">
             <h2 className="text-black font-bold pl-[50px] text-4xl">
               Values and Beliefs
             </h2>
@@ -28,7 +28,7 @@ function ValuesandBeliefs() {
             <Disclosure>
               {({ open }) => (
                 <>
-                  <DisclosureButton className="flex items-center gap-2">
+                  <DisclosureButton className="flex items-center gap-2 bg-white">
                     <li className="pl-[150px]">
                       <span className="text-black font-bold">Creativity:</span>
                     </li>
@@ -49,7 +49,7 @@ function ValuesandBeliefs() {
             <Disclosure>
               {({ open }) => (
                 <>
-                  <DisclosureButton className="flex items-center gap-2">
+                  <DisclosureButton className="flex items-center gap-2 bg-white">
                     <li className="pl-[190px]">
                       <span className="text-black font-bold">
                         Accountability:
@@ -72,7 +72,7 @@ function ValuesandBeliefs() {
             <Disclosure>
               {({ open }) => (
                 <>
-                  <DisclosureButton className="flex items-center gap-2">
+                  <DisclosureButton className="flex items-center gap-2 bg-white">
                     <li className="pl-[150px]">
                       <span className="text-black font-bold">Autonomy:</span>
                     </li>
@@ -93,7 +93,7 @@ function ValuesandBeliefs() {
             <Disclosure>
               {({ open }) => (
                 <>
-                  <DisclosureButton className="flex items-center gap-2">
+                  <DisclosureButton className="flex items-center gap-2 bg-white">
                     <li className="pl-[150px]">
                       <span className="text-black font-bold">Respect:</span>
                     </li>
@@ -114,7 +114,7 @@ function ValuesandBeliefs() {
             <Disclosure>
               {({ open }) => (
                 <>
-                  <DisclosureButton className="flex items-center gap-2">
+                  <DisclosureButton className="flex items-center gap-2 bg-white">
                     <li className="pl-[150px]">
                       <span className="text-black font-bold">Kindness:</span>
                     </li>
@@ -135,7 +135,7 @@ function ValuesandBeliefs() {
             <Disclosure>
               {({ open }) => (
                 <>
-                  <DisclosureButton className="flex items-center gap-2">
+                  <DisclosureButton className="flex items-center gap-2 bg-white">
                     <li className="pl-[150px]">
                       <span className="text-black font-bold">
                         Personal Growth:
@@ -158,7 +158,7 @@ function ValuesandBeliefs() {
             <Disclosure>
               {({ open }) => (
                 <>
-                  <DisclosureButton className="flex items-center gap-2">
+                  <DisclosureButton className="flex items-center gap-2 bg-white">
                     <li className="pl-[150px]">
                       <span className="text-black font-bold">
                         Motivation to Grow and Learn:
@@ -181,7 +181,7 @@ function ValuesandBeliefs() {
             <Disclosure>
               {({ open }) => (
                 <>
-                  <DisclosureButton className="flex items-center gap-2">
+                  <DisclosureButton className="flex items-center gap-2 bg-white">
                     <li className="pl-[150px]">
                       <span className="text-black font-bold">Acceptance:</span>
                     </li>
@@ -202,7 +202,7 @@ function ValuesandBeliefs() {
             <Disclosure>
               {({ open }) => (
                 <>
-                  <DisclosureButton className="flex items-center gap-2">
+                  <DisclosureButton className="flex items-center gap-2 bg-white">
                     <li className="pl-[150px]">
                       <span className="text-black font-bold">Community:</span>
                     </li>
