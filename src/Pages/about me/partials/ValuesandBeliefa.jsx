@@ -50,7 +50,7 @@ function ValuesandBeliefs() {
               {({ open }) => (
                 <>
                   <DisclosureButton className="flex items-center gap-2 bg-white">
-                    <li className="pl-[190px]">
+                    <li className="pl-[150px]">
                       <span className="text-black font-bold">
                         Accountability:
                       </span>
