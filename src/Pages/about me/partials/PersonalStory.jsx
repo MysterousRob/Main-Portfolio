@@ -1,18 +1,18 @@
 import React from "react";
-import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
-import { ChevronDownIcon } from '@heroicons/react/20/solid'
-import clsx from 'clsx'
+import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react';
+import { ChevronDownIcon } from '@heroicons/react/20/solid';
+import clsx from 'clsx';
 
 function PersonalStory() {
   return (
-    <Disclosure>
+    <Disclosure className="bg-black">
       {({ open }) => (
         <>
           <DisclosureButton className="flex items-center gap-2">
             Personal Story
             <ChevronDownIcon className={clsx('w-5', open && 'rotate-180')} />
           </DisclosureButton>
-          <DisclosurePanel>
+          <DisclosurePanel className="pl-[40px] py-[15px] indent-7">
           I was born on November 23, 2003, in Chicago, Illinois, USA, also known
         as the Windy City. My early childhood was marked by the loss of my
         mother when I was just three years old. Raised by my grandparents while
