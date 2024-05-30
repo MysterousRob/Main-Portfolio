@@ -207,7 +207,7 @@ function ProfessionalStory() {
             </Disclosure>
           </DisclosurePanel>
           <DisclosurePanel>
-            <p className="pl-[100px] indent-4">
+            <p className="pl-[100px] indent-4 pt-[20px]">
               This diverse background has equipped me with a unique blend of
               skills, from excellent communication and problem-solving abilities
               developed in the hospitality industry to technical proficiency and

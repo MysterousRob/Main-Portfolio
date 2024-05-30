@@ -19,7 +19,7 @@ function HobbiesAndInterests() {
             <ChevronDownIcon className={clsx("w-5", open && "rotate-180")} />
           </DisclosureButton>
           <DisclosurePanel>
-            <p className="pl-[100px] indent-4">
+            <p className="pl-[100px] indent-4 pb-[20px]">
               My hobbies and interests play a significant role in shaping who I
               am. Here are a few that are particularly important to me:
             </p>
@@ -73,7 +73,7 @@ function HobbiesAndInterests() {
             </Disclosure>
           </DisclosurePanel>
           <DisclosurePanel>
-            <p className="pl-[100px] indent-4">
+            <p className="pl-[100px] indent-4 pt-[20px]">
               Although my list of hobbies may seem short, these activities are
               integral to my lifestyle and personal growth, contributing
               significantly to my overall well-being and shaping the person I am

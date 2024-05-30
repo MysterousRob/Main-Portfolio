@@ -19,7 +19,7 @@ function ValuesandBeliefs() {
             <ChevronDownIcon className={clsx("w-5", open && "rotate-180")} />
           </DisclosureButton>
           <DisclosurePanel>
-            <p className="pl-[100px] indent-4">
+            <p className="pl-[100px] indent-4 pb-[20px]">
               My approach to coding is guided by a strong set of values that not
               only shape my work but also define my professional ethos:
             </p>
@@ -222,7 +222,7 @@ function ValuesandBeliefs() {
             </Disclosure>
           </DisclosurePanel>
           <DisclosurePanel>
-            <p className="pl-[100px] indent-4">
+            <p className="pl-[100px] indent-4 bt-[20px]">
               These values not only guide my approach to coding but also reflect
               my commitment to creating meaningful and impactful experiences for
               users while continually evolving as a professional.
