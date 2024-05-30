@@ -141,16 +141,78 @@ function ProfessionalStory() {
                 <>
                   <DisclosureButton className="flex items-center gap-2">
                     <h3 className="pl-[80px] text-black font-bold text-2xl">
-                      Transition to Programing
+                      Transition to Programming
                     </h3>
                     <ChevronDownIcon
                       className={clsx("w-5", open && "rotate-180")}
                     />
                   </DisclosureButton>
-                  <DisclosurePanel></DisclosurePanel>
+                  <DisclosurePanel>
+                    <p className="pl-[100px] indent-4">
+                      The transition from hospitality to programming was driven
+                      by the desire for better pay and enhanced benefits. This
+                      motivation led me to pursue a new career path in coding:
+                    </p>
+                  </DisclosurePanel>
+                  <DisclosurePanel>
+                    <Disclosure>
+                      {({ open }) => (
+                        <>
+                          <DisclosureButton className="flex items-center gap-2">
+                            <li className="pl-[150px]">
+                              <span className="text-black font-bold">
+                                Self-Taught Programmer:
+                              </span>
+                            </li>
+                            <ChevronDownIcon
+                              className={clsx("w-5", open && "rotate-180")}
+                            />
+                          </DisclosureButton>
+                          <DisclosurePanel>
+                            <li className="pl-[190px]">
+                              Began learning to code independently, dedicating
+                              significant time and effort to mastering
+                              programming languages and tools.
+                            </li>
+                          </DisclosurePanel>
+                        </>
+                      )}
+                    </Disclosure>
+                    <Disclosure>
+                      {({ open }) => (
+                        <>
+                          <DisclosureButton className="flex items-center gap-2">
+                            <li className="pl-[150px]">
+                              <span className="text-black font-bold">
+                                Motivation:
+                              </span>
+                            </li>
+                            <ChevronDownIcon
+                              className={clsx("w-5", open && "rotate-180")}
+                            />
+                          </DisclosureButton>
+                          <DisclosurePanel>
+                            <li className="pl-[190px]">
+                              The potential for higher earnings and improved
+                              work-life balance were key factors in my decision
+                              to become a programmer.
+                            </li>
+                          </DisclosurePanel>
+                        </>
+                      )}
+                    </Disclosure>
+                  </DisclosurePanel>
                 </>
               )}
             </Disclosure>
+          </DisclosurePanel>
+          <DisclosurePanel>
+          <p className="pl-[100px] indent-4">
+            This diverse background has equipped me with a unique blend of
+            skills, from excellent communication and problem-solving abilities
+            developed in the hospitality industry to technical proficiency and a
+            strong work ethic cultivated through my journey into programming.
+            </p>
           </DisclosurePanel>
         </>
       )}
