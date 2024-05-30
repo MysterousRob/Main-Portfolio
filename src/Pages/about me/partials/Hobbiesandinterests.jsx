@@ -1,6 +1,6 @@
 import React from "react";
 
-function HobbiesandInterests() {
+function HobbiesAndInterests() {
     return(
         <div className="p-[10px]">
                         <h2 className="text-black font-bold pl-[50px] text-4xl">
@@ -24,4 +24,4 @@ function HobbiesandInterests() {
     )
 }
 
-export default HobbiesandInterests;
+export default HobbiesAndInterests;

@@ -5,8 +5,7 @@ import ProfessionalStory from "./partials/ProfessionalStory";
 import MyEducation from "./partials/MyEducation";
 import PersonalStory from "./partials/PersonalStory";
 import ValuesandBeliefs from "./partials/ValuesandBeliefa";
-import HobbiesandInterests from "./partials/Hobbiesandinterests";
-
+import HobbiesAndInterests from "./partials/Hobbiesandinterests";
 function AboutMe() {
     return(
         <>
@@ -27,7 +26,7 @@ function AboutMe() {
                     {/* values and beliefs */}
                     <ValuesandBeliefs />
                     {/* hobbies and interests  */}
-                    <HobbiesandInterests />
+                    <HobbiesAndInterests />
                 </div>
                 <Footer />
            </div>

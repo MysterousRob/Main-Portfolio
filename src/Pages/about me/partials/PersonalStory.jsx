@@ -1,13 +1,19 @@
 import React from "react";
+import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
+import { ChevronDownIcon } from '@heroicons/react/20/solid'
+import clsx from 'clsx'
 
 function PersonalStory() {
   return (
-    <div className="p-[10px]">
-      <h2 className="text-black font-bold pl-[50px] text-4xl">
-        Personal Story
-      </h2>
-      <p className="pl-[100px] indent-7">
-        I was born on November 23, 2003, in Chicago, Illinois, USA, also known
+    <Disclosure>
+      {({ open }) => (
+        <>
+          <DisclosureButton className="flex items-center gap-2">
+            Personal Story
+            <ChevronDownIcon className={clsx('w-5', open && 'rotate-180')} />
+          </DisclosureButton>
+          <DisclosurePanel>
+          I was born on November 23, 2003, in Chicago, Illinois, USA, also known
         as the Windy City. My early childhood was marked by the loss of my
         mother when I was just three years old. Raised by my grandparents while
         my father pursued his career in Europe, I grew up in a nurturing
@@ -32,9 +38,11 @@ function PersonalStory() {
         blending the rich cultural heritage of my Polish-American background
         with the technical skills and creativity of both the hospitality and
         tech industries.
-      </p>
-    </div>
-  );
+          </DisclosurePanel>
+        </>
+      )}
+    </Disclosure>
+  )
 }
 
 export default PersonalStory;
