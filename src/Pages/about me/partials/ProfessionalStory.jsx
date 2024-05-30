@@ -12,13 +12,13 @@ function ProfessionalStory() {
     <Disclosure>
       {({ open }) => (
         <>
-          <DisclosureButton className="flex items-center gap-2">
+          <DisclosureButton className="flex items-center gap-2 bg-white">
             <h2 className="text-black font-bold pl-[50px] text-4xl">
               Professional Background
             </h2>
             <ChevronDownIcon className={clsx("w-5", open && "rotate-180")} />
           </DisclosureButton>
-          <DisclosurePanel>
+          <DisclosurePanel className="bg-white">
             <Disclosure>
               {({ open: innerOpen }) => (
                 <>
@@ -41,7 +41,7 @@ function ProfessionalStory() {
                     <Disclosure>
                       {({ open }) => (
                         <>
-                          <DisclosureButton className="flex items-center gap-2">
+                          <DisclosureButton className="flex items-center gap-2 bg-white">
                             <li className="pl-[150px]">
                               <span className="text-black font-bold">
                                 Waiter:
