@@ -8,13 +8,13 @@ function PersonalStory() {
     <Disclosure className="bg-white">
       {({ open }) => (
         <>
-          <DisclosureButton className="flex items-center gap-2">
+          <DisclosureButton className="flex items-center gap-2 bg-white">
             Personal Story
             <ChevronDownIcon className={clsx('w-5', open && 'rotate-180')} />
           </DisclosureButton>
           <DisclosurePanel className="pl-[40px] py-[15px] indent-7">
           I was born on November 23, 2003, in Chicago, Illinois, USA, also known
-        as the Windy City. My early childhood was marked by the loss of my
+        as the Windy City. My early childhood was marked by the loss  of my
         mother when I was just three years old. Raised by my grandparents while
         my father pursued his career in Europe, I grew up in a nurturing
         environment that balanced both American and Polish cultures. My family
