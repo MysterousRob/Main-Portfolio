@@ -12,7 +12,7 @@ function MyEducation() {
     <Disclosure>
       {({ open }) => (
         <>
-          <DisclosureButton className="flex items-center gap-2">
+          <DisclosureButton className="flex items-center gap-2 bg-white">
             <h2 className="text-black font-bold pl-[50px] text-4xl">
               My Education
             </h2>
@@ -22,7 +22,7 @@ function MyEducation() {
             <Disclosure>
               {({ open }) => (
                 <>
-                  <DisclosureButton className="flex items-center gap-2">
+                  <DisclosureButton className="flex items-center gap-2 bg-white">
                     <h3 className="pl-[80px] text-black font-bold text-2xl">
                       Early Education
                     </h3>
@@ -34,7 +34,7 @@ function MyEducation() {
                     <Disclosure>
                       {({ open }) => (
                         <>
-                          <DisclosureButton className="flex items-center gap-2">
+                          <DisclosureButton className="flex items-center gap-2 bg-white">
                             <li className="pl-[150px]">
                               <span className="text-black font-bold">USA:</span>
                             </li>
@@ -58,7 +58,7 @@ function MyEducation() {
             <Disclosure>
               {({ open }) => (
                 <>
-                  <DisclosureButton className="flex items-center gap-2">
+                  <DisclosureButton className="flex items-center gap-2 bg-white">
                     <h3 className="pl-[80px] text-black font-bold text-2xl">
                       High School in Malta
                     </h3>
@@ -70,7 +70,7 @@ function MyEducation() {
                     <Disclosure>
                       {({ open }) => (
                         <>
-                          <DisclosureButton className="flex items-center gap-2">
+                          <DisclosureButton className="flex items-center gap-2 bg-white">
                             <li className="pl-[150px]">
                               <span className="text-black font-bold">
                                 Quality Schools International (QSI) Malta:
@@ -97,7 +97,7 @@ function MyEducation() {
             <Disclosure>
               {({ open }) => (
                 <>
-                  <DisclosureButton className="flex items-center gap-2">
+                  <DisclosureButton className="flex items-center gap-2 bg-white">
                     <h3 className="pl-[80px] text-black font-bold text-2xl">
                       Professional Training
                     </h3>
@@ -109,7 +109,7 @@ function MyEducation() {
                     <Disclosure>
                       {({ open }) => (
                         <>
-                          <DisclosureButton className="flex items-center gap-2">
+                          <DisclosureButton className="flex items-center gap-2 bg-white">
                             <li className="pl-[150px]">
                               <span className="text-black font-bold">
                                 Mixology/Bartending Course:
@@ -138,7 +138,7 @@ function MyEducation() {
             <Disclosure>
               {({ open }) => (
                 <>
-                  <DisclosureButton className="flex items-center gap-2">
+                  <DisclosureButton className="flex items-center gap-2 bg-white">
                     <h3 className="pl-[80px] text-black font-bold text-2xl">
                       Coding Education
                     </h3>
@@ -150,7 +150,7 @@ function MyEducation() {
                     <Disclosure>
                       {({ open }) => (
                         <>
-                          <DisclosureButton className="flex items-center gap-2">
+                          <DisclosureButton className="flex items-center gap-2 bg-white">
                             <li className="pl-[150px]">
                               <span className="text-black font-bold">
                                 Codecademy (November 2023):
