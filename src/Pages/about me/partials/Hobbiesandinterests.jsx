@@ -12,7 +12,7 @@ function HobbiesAndInterests() {
     <Disclosure>
       {({ open }) => (
         <>
-          <DisclosureButton className="flex items-center gap-2">
+          <DisclosureButton className="flex items-center gap-2 bg-white">
             <h2 className="text-black font-bold pl-[50px] text-4xl">
               Hobbies and Interests
             </h2>
@@ -28,7 +28,7 @@ function HobbiesAndInterests() {
             <Disclosure>
               {({ open }) => (
                 <>
-                  <DisclosureButton className="flex items-center gap-2">
+                  <DisclosureButton className="flex items-center gap-2 bg-white">
                     <li className="pl-[150px]">
                       <span className="text-black font-bold">Golfing:</span>
                     </li>
@@ -51,7 +51,7 @@ function HobbiesAndInterests() {
             <Disclosure>
               {({ open }) => (
                 <>
-                  <DisclosureButton className="flex items-center gap-2">
+                  <DisclosureButton className="flex items-center gap-2 bg-white">
                     <li className="pl-[150px]">
                       <span className="text-black font-bold">Gaming:</span>
                     </li>
