@@ -19,10 +19,10 @@ function ProfessionalStory() {
             <ChevronDownIcon className={clsx("w-5", open && "rotate-180")} />
           </DisclosureButton>
           <DisclosurePanel className="bg-white">
-            <Disclosure>
+            <Disclosure className="bg-white">
               {({ open: innerOpen }) => (
                 <>
-                  <DisclosureButton className="flex items-center gap-2">
+                  <DisclosureButton className="flex items-center gap-2 bg-white">
                     <h3 className="pl-[80px] text-black font-bold text-2xl">
                       Hospitality Industry Experience
                     </h3>
