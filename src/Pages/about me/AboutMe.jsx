@@ -9,24 +9,26 @@ import HobbiesAndInterests from "./partials/Hobbiesandinterests";
 function AboutMe() {
     return(
         <>
-           <div className="bg-white text-black">
+           <div className="min-h-screen flex flex-col bg-white text-black">
                 <Header />
-                <div className="m-[15px] p-[10px]">
-                    <h1 className="text-black font-bold text-center text-8xl">
-                       About Me 
-                    </h1>
-                </div>
-                <div className="m-[15px] p-[10px]">
-                    {/* Professional Story */}
-                   <ProfessionalStory />
-                    {/* my education */}
-                    <MyEducation />
-                    {/* personal story */}
-                    <PersonalStory />
-                    {/* values and beliefs */}
-                    <ValuesandBeliefs />
-                    {/* hobbies and interests  */}
-                    <HobbiesAndInterests />
+                <div className="flex-grow overflow-y-auto">
+                    <div className=" m-[15px] p-[10px]">
+                        <h1 className="text-black font-bold text-center text-8xl">
+                           About Me
+                        </h1>
+                    </div>
+                    <div className="h-calc-100vh-300px m-[15px] p-[10px] ">
+                        {/* Professional Story */}
+                       <ProfessionalStory />
+                        {/* my education */}
+                        <MyEducation />
+                        {/* personal story */}
+                        <PersonalStory />
+                        {/* values and beliefs */}
+                        <ValuesandBeliefs />
+                        {/* hobbies and interests  */}
+                        <HobbiesAndInterests />
+                    </div>
                 </div>
                 <Footer />
            </div>

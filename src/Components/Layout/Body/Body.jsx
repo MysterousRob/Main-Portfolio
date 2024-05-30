@@ -9,7 +9,7 @@ function Body() {
         <section className="mb-20 text-center flex-1">
           <div className="p-10 ml-90 mt-5 mb-15">
             <h2 className="text-5xl text-left font-lato-black italic">
-              Hello there I am{" "}
+              Hello there I am
             </h2>
             <div className="pl-40">
               <h1 className="text-center font-roboto font-serif font-semibold italic">
