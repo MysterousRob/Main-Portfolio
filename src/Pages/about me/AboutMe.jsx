@@ -29,6 +29,9 @@ function AboutMe() {
                         {/* hobbies and interests  */}
                         <HobbiesAndInterests />
                     </div>
+                    <div>
+                        
+                    </div>
                 </div>
                 <Footer />
            </div>
