@@ -37,7 +37,7 @@ function HobbiesAndInterests() {
                     />
                   </DisclosureButton>
                   <DisclosurePanel>
-                    <li className="pl-[150px]">
+                    <li className="pl-[190px]">
                       I enjoy spending time on the golf course, which not only
                       allows me to stay active but also provides a great way to
                       relax and unwind. Golfing helps me improve my
@@ -60,7 +60,7 @@ function HobbiesAndInterests() {
                     />
                   </DisclosureButton>
                   <DisclosurePanel>
-                    <li className="pl-[150px]">
+                    <li className="pl-[190px]">
                       Gaming is another passion of mine. It offers a perfect
                       balance of challenge and entertainment, helping me develop
                       strategic thinking and problem-solving skills. Whether
