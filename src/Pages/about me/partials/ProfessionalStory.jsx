@@ -64,7 +64,7 @@ function ProfessionalStory() {
                     <Disclosure>
                       {({ open }) => (
                         <>
-                          <DisclosureButton className="flex items-center gap-2">
+                          <DisclosureButton className="flex items-center gap-2 bg-white">
                             <li className="pl-[150px]">
                               <span className="text-black font-bold">
                                 Bartender:
@@ -87,9 +87,9 @@ function ProfessionalStory() {
                     <Disclosure>
                       {({ open }) => (
                         <>
-                          <DisclosureButton className="flex items-center gap-2">
+                          <DisclosureButton className="flex items-center gap-2 bg-white">
                             <li className="pl-[150px]">
-                              <span className="text-black font-bold">
+                              <span className="text-black font-bold ">
                                 Mixologist:
                               </span>
                             </li>
@@ -111,7 +111,7 @@ function ProfessionalStory() {
                     <Disclosure>
                       {({ open }) => (
                         <>
-                          <DisclosureButton className="flex items-center gap-2">
+                          <DisclosureButton className="flex items-center gap-2 bg-white">
                             <li className="pl-[150px]">
                               <span className="text-black font-bold">
                                 Bar Management:
