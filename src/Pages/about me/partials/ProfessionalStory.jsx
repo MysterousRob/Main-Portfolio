@@ -207,11 +207,12 @@ function ProfessionalStory() {
             </Disclosure>
           </DisclosurePanel>
           <DisclosurePanel>
-          <p className="pl-[100px] indent-4">
-            This diverse background has equipped me with a unique blend of
-            skills, from excellent communication and problem-solving abilities
-            developed in the hospitality industry to technical proficiency and a
-            strong work ethic cultivated through my journey into programming.
+            <p className="pl-[100px] indent-4">
+              This diverse background has equipped me with a unique blend of
+              skills, from excellent communication and problem-solving abilities
+              developed in the hospitality industry to technical proficiency and
+              a strong work ethic cultivated through my journey into
+              programming.
             </p>
           </DisclosurePanel>
         </>
