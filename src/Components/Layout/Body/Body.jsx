@@ -1,6 +1,6 @@
 import React from "react";
 import ProgressBars from "./ProgressBars";
-import logo from "./../../../assets/css/pictures/Images/Robert-Portrait.png";
+import logo from "../../../assets/css/pictures/Robert-Portrait.png";
 
 function Body() {
   return (

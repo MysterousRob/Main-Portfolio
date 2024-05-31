@@ -6,6 +6,7 @@ import MyEducation from "./partials/MyEducation";
 import PersonalStory from "./partials/PersonalStory";
 import ValuesandBeliefs from "./partials/ValuesandBeliefa";
 import HobbiesAndInterests from "./partials/Hobbiesandinterests";
+
 function AboutMe() {
     return(
         <>
