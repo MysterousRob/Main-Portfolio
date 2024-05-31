@@ -11,17 +11,18 @@ const Footer = () => {
         <h1 className="text-white">Contact Me</h1>
         <div className="flex bg-black items-center justify-center">
           <MyForm />
-          <FooterNav />
-          <div>
-            <a href="https://github.com/MysterousRob">
-              <img src={GitHubLogo} alt="My Github" />
-            </a>
-            {/* not working */}
-            <a href="https://www.linkedin.com/in/robert-gasior/">
-              <img src={LinkedinLogo} alt="My LinkedIn" />
-            </a>
+          <FooterNav /> 
+            <div className="absolute bottom-0 right-0 p-[10px] pb-[15px] pr-[100px]">
+                    <a href="https://github.com/MysterousRob" className="flex items-center">
+            <img src={GitHubLogo} alt="My Github" className="w-20 h-20" /> {/* Adjust sizing as needed */}
+                    </a>
+                  </div>
+                  <div className="absolute bottom-0 right-0 p-2">
+                    <a href="https://www.linkedin.com/in/robert-gasior" className="flex items-center">
+            <img src={LinkedinLogo} alt="My LinkedIn" className="w-70 h-70" /> {/* Adjust sizing as needed */}
+                    </a>
+                  </div>
           </div>
-        </div>
       </div>
     </>
   );
