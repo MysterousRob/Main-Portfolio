@@ -35,6 +35,10 @@ export const skills = [
       name: "Redux",
       percentage: 75,
     },
+    {
+      name: "SQL",
+      percentage: 80,
+    },
   ]
 
 
